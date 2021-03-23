@@ -8,9 +8,12 @@ body {
     height: 100vh;
 
 }
+
 h1, h3 {
     font-family: 'Anton', sans-serif;
+    text-align: center;
 }
+/* ----------------- header ----------------- */
 .container {
     padding: 0;
 }
@@ -47,3 +50,43 @@ header nav .nav-links{
     justify-content:space-around;
 }
 
+/* ----------------- section 1 ----------------- */
+.container .circle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container .circle .company {
+    width: 105px;
+    height: 105px;
+    color: white;
+    border: 5px solid white;
+    border-radius: 55px;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    margin: 0;
+}
+#design {
+    background-color: #e6563b;
+}
+
+#develop {
+    background-color: #eb9d3a;
+}
+
+#support {
+    background-color: #7cb06c;
+}
+
+#host {
+    background-color: #00aba9;
+}
+
+hr {
+    display: none;
+}
