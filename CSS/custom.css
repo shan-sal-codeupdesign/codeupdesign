@@ -53,7 +53,7 @@ header nav .nav-links{
 
 /* ----------------- section 1 ----------------- */
 .container .circle {
-    width: 90%;
+    max-width: 66%;
     margin: 0 auto;
 }
 
@@ -63,13 +63,14 @@ header nav .nav-links{
     color: white;
     border: 5px solid white;
     border-radius: 55px;
-    margin: 1rem;
+    margin: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h4 {
+    font-weight: bold;
     margin: 0;
 }
 #design {
