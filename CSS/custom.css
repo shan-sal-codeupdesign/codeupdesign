@@ -96,7 +96,7 @@ h4 {
 hr {
     display: none;
 }
-/* ----------------- section 2----------------- */
+/* ----------------- section 2 ----------------- */
 .card {
     background-color: #f0f0f0;
     margin: 10px;
@@ -124,4 +124,8 @@ h5 {
     font-size: .5rem;
     font-weight: bold;
     margin: 0;
+}
+
+.mobile-view {
+    display: none;
 }
