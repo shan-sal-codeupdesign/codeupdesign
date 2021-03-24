@@ -14,7 +14,7 @@ h1, h3 {
     text-align: center;
 }
 /* ----------------- header ----------------- */
-.container {
+header .container {
     padding: 0;
 }
 
@@ -54,14 +54,14 @@ header nav .nav-link {
 
 /* ----------------- section 1 ----------------- */
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
-.container .circle {
-    max-width: 66%;
+.container .company-info {
+    max-width: 75%;
     margin: 0 auto;
 }
 
-.container .circle .company {
+.container .company-info .circle {
     width: 105px;
     height: 105px;
     color: white;
