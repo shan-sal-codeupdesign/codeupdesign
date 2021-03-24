@@ -99,17 +99,23 @@ hr {
     display: none;
 }
 /* ----------------- section 2 ----------------- */
+#selected-work {
+    margin-top: 75px;
+}
+
 .card {
     background-color: #f0f0f0;
-    margin: 10px;
+    margin: 30px 10px 10px 10px;
     border: 0;
+
 }
 .card-img-top {
     border: 5px solid #e6e6e6;
     border-radius: 2px;
 }
 .card-body {
-    padding: 1.25rem 0;
+    padding: 0 0 1.25rem 0;
+
 }
 .col-6 {
     padding: 0;
