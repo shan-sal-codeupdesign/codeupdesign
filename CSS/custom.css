@@ -53,8 +53,8 @@ header nav .nav-links{
 
 /* ----------------- section 1 ----------------- */
 .container .circle {
-    width: 90%;
-    margin: 0 auto;
+    max-width: 66%;
+    margin: auto;
 }
 
 .container .circle .company {
