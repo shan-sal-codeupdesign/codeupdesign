@@ -15,6 +15,16 @@ h1, h3 {
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
+
+.row {
+    margin: 0;
+}
+
+p {
+    font-size: .75rem;
+    margin: auto 0;
+}
+
 /* ----------------- header ----------------- */
 header .container {
     padding: 0;
@@ -98,14 +108,15 @@ h4 {
 hr {
     display: none;
 }
-/* ----------------- section 2 ----------------- */
+
+/* ----------------- main ----------------- */
 #selected-work {
     margin-top: 75px;
 }
 
 .card {
     background-color: #f0f0f0;
-    margin: 30px 10px 10px 10px;
+    /*margin: 30px 10px 10px 10px;*/
     border: 0;
 
 }
@@ -115,11 +126,8 @@ hr {
 }
 .card-body {
     padding: 0 0 1.25rem 0;
+}
 
-}
-.col-6 {
-    padding: 0;
-}
 .letter {
     width: 18px;
     height: 18px;
@@ -134,10 +142,11 @@ h5 {
     margin: 0;
 }
 
-.mobile-view {
-    display: none;
+.card-body .col-6 {
+    padding: 0;
 }
 
+/* ----------------- aside ----------------- */
 aside img {
     width: 40px;
 }
@@ -146,9 +155,6 @@ aside img {
 @media (min-width: 576px) {
 
 
-    .mobile-view {
-        display: flex;
-    }
 }
 
 /* Medium devices (tablets, 768px and up) */
