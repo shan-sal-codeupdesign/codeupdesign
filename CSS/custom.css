@@ -69,22 +69,19 @@ h1 {
     font-size: 3.5rem;
 }
 
+h4 {
+    font-weight: bold;
+    margin: 0;
+}
+
 .container .circle {
     width: 105px;
     height: 105px;
     color: white;
     border: 5px solid white;
     border-radius: 55px;
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-h4 {
-    font-weight: bold;
-    margin: 0;
-}
 .design {
     background-color: #e6563b;
 }
@@ -146,7 +143,9 @@ aside img {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-
+    .circles-container {
+        margin: 0 auto;
+    }
 
 }
 
