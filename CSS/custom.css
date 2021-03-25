@@ -84,13 +84,9 @@ hr {
 
 .card {
     background-color: #f0f0f0;
-    /*margin: 30px 10px 10px 10px;*/
-    border: 0;
-
 }
 .card-img-top {
     border: 5px solid #e6e6e6;
-    border-radius: 2px;
 }
 .card-body {
     padding: 0 0 1.25rem 0;
