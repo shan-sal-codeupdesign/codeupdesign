@@ -22,7 +22,6 @@ h1, h3 {
 
 p {
     font-size: .75rem;
-    margin: auto 0;
 }
 
 /* ----------------- header ----------------- */
@@ -137,8 +136,8 @@ h5 {
 }
 
 /* ----------------- aside ----------------- */
-aside img {
-    width: 40px;
+h4 {
+    font-size: .75rem;
 }
 
 /* Small devices (landscape phones, 576px and up) */
