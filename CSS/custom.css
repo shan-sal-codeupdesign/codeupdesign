@@ -18,10 +18,6 @@ h1, h3 {
     margin: 0;
 }
 
-p {
-    font-size: .75rem;
-}
-
 /* ----------------- header ----------------- */
 header nav .logo-image{
     background-color: white;
@@ -42,13 +38,13 @@ a {
     color: black;
 }
 
-
 /* ----------------- section 1 ----------------- */
 h1 {
     font-size: 48px;
 }
 
 h4 {
+    font-size: .75rem;
     font-weight: bold;
     margin: 0;
 }
@@ -103,24 +99,7 @@ h5 {
     margin: 0;
 }
 
-.card-body .col-6 {
-    padding: 0;
-}
 
-/* ----------------- aside ----------------- */
-h4 {
-    font-size: .75rem;
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-
-}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
