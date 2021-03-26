@@ -42,7 +42,7 @@ header nav img {
 }
 
 header nav .logo {
-    font-size: 28px;
+    font-size: 36px;
 }
 
 a {
@@ -91,9 +91,9 @@ a {
 }
 
 
-
-
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
+
 
 }
