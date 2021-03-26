@@ -5,6 +5,7 @@
 }
 body {
     font-family: 'Abel', sans-serif;
+    font-size: .75rem;
     background-color: #F0F0F0;
 }
 
@@ -95,12 +96,9 @@ hr {
     width: 18px;
     height: 18px;
     border-radius: 9px;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
 }
 h5 {
-    font-size: .5rem;
+    font-size: .7rem;
     font-weight: bold;
     margin: 0;
 }
