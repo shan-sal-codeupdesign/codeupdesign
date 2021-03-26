@@ -9,9 +9,21 @@ body {
     background-color: #F0F0F0;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h4, h5 {
     font-family: 'Anton', sans-serif;
     text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: .7rem;
 }
 
 .row {
@@ -39,12 +51,6 @@ a {
 }
 
 /* ----------------- section 1 ----------------- */
-h1 {
-    font-size: 48px;
-}
-
-
-
 .container .circle {
     width: 105px;
     height: 105px;
@@ -69,7 +75,6 @@ h1 {
 }
 
 /* ----------------- main ----------------- */
-
 .card {
     background-color: #f0f0f0;
 }
@@ -85,11 +90,7 @@ h1 {
     height: 18px;
     border-radius: 9px;
 }
-h5 {
-    font-size: .7rem;
-    font-weight: bold;
-    margin: 0;
-}
+
 
 
 
