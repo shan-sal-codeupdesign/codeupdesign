@@ -89,3 +89,8 @@ a {
     height: 18px;
     border-radius: 9px;
 }
+
+.custom-header {
+    line-height: 18px;
+    text-align: center;
+}
