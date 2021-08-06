@@ -74,6 +74,11 @@ a {
 }
 
 /* ----------------- main ----------------- */
+.title {
+    margin: 5rem 0 2rem 0;
+    text-align: center;
+}
+
 .card {
     background-color: #f0f0f0;
 }
@@ -93,4 +98,28 @@ a {
 .custom-header {
     line-height: 18px;
     text-align: center;
+}
+
+.side {
+    display: flex;
+    padding: 0 15px;
+    margin-bottom: 2rem;
+}
+
+.sideImage {
+    width: 6rem;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+    .title {
+        text-align: left;
+    }
+
+    aside .title {
+        margin-bottom: 3.5rem;
+    }
 }
