@@ -110,6 +110,8 @@ a {
     width: 4rem;
     height: 3rem;
     margin-right: 1rem;
+    border: 3px solid #e6e6e6;
+    border-radius: 2px;
 }
 
 aside .side h4 {
