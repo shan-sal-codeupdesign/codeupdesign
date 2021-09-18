@@ -15,15 +15,22 @@
 <header class="container-fluid p-0">
     <nav class="row justify-content-center">
         <div class="w-100 d-flex justify-content-center logo-image">
-            <div class="w-100 d-flex align-items-center col-lg-8 col-xl-10">
-                <img class="d-none d-md-flex ml-5 mr-1" src="IMG/logo.png" alt="logo-image">
-                <div class="d-none d-md-flex logo">codeup design</div>
-                <div class="d-none d-sm-flex align-items-center pl-3 pr-3 ml-auto"><a href="#">SERVICES</a></div>
-                <div class="d-none d-sm-flex align-items-center pl-3 pr-3"><a href="#">WORK</a></div>
-                <img class="d-md-none" src="IMG/logo.png" alt="logo-image">
-                <div class="d-none d-sm-flex align-items-center pl-3 pr-3"><a href="#">BLOG</a></div>
-                <div class="d-none d-sm-flex d-md-none align-items-center pl-3 pr-3 mr-auto"><a href="#">CONTACT</a></div>
-                <div class="d-none d-md-flex align-items-center pl-3 pr-3"><a href="#">CONTACT</a></div>
+            <!--navbar xs view && sm view no md view-->
+            <div class="d-flex d-md-none align-items-center">
+                <div class="d-none d-sm-flex align-items-center px-4 ml-auto"><a href="#">SERVICES</a></div>
+                <div class="d-none d-sm-flex align-items-center pl-4 pr-5"><a href="#">WORK</a></div>
+                <img src="IMG/logo.png" alt="logo-image">
+                <div class="d-none d-sm-flex align-items-center pr-4 pl-5"><a href="#">BLOG</a></div>
+                <div class="d-none d-sm-flex d-md-none align-items-center px-3 mr-auto"><a href="#">CONTACT</a></div>
+            </div>
+            <!--navbar md && lg view-->
+            <div class="d-none d-md-flex align-items-center justify-content-end">
+                <img class="ml-4 mr-2" src="IMG/logo.png" alt="logo-image">
+                <div class="logo">codeup design</div>
+                <div class="px-3 ml-auto"><a href="#">SERVICES</a></div>
+                <div class="px-3"><a href="#">WORK</a></div>
+                <div class="px-3"><a href="#">BLOG</a></div>
+                <div class="px-3"><a href="#">CONTACT</a></div>
             </div>
         </div>
 
@@ -70,13 +77,13 @@
 
 
 <!--main section with 4 images-->
-<main class="container justify-content-center">
+<main class="container justify-content-center p-0">
     <div class="row">
-        <div class="row col-lg-8">
+        <div class="row col-md-8 p-0">
             <div class="col-sm-12">
                 <p class="title">SELECTED WORK</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 pl-0 pr-4">
                 <div class="card border-0">
                     <img class="card-img-top rounded justify-content-center" src="IMG/apple-ipad.jpg" alt="Apple-Ipad-image">
                     <div class="card-body">
@@ -92,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 pl-0 pr-4">
                 <div class="card border-0">
                     <img class="card-img-top rounded justify-content-center" src="IMG/macbook.jpg" alt="macbook-image">
                     <div class="card-body">
@@ -108,7 +115,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 pl-0 pr-4">
                 <div class="card border-0">
                     <img class="card-img-top rounded justify-content-center" id="man-image" src="IMG/man.jpg" alt="man-image">
                     <div class="card-body">
@@ -124,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 pl-0 pr-4">
                 <div class="card border-0">
                     <img class="card-img-top rounded justify-content-center" src="IMG/security.jpg" alt="security-image">
                     <div class="card-body">
@@ -142,7 +149,7 @@
             </div>
         </div>
         <!--aside section with 4 images-->
-        <aside class="d-none d-lg-block flex-column col-lg-4">
+        <aside class="d-none d-md-flex flex-column col-md-4 p-0">
             <p class="title">THE LAST</p>
             <div>
                 <div class="side">
@@ -160,7 +167,7 @@
             </div>
 
             <p class="title mt-2 mb-3"><i class="fa fa-twitter text-primary pr-2"></i>LAST TWEET</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi aperiam at blanditiis, consequatur doloremque.</p>
+            <p>Lorem ipsum sit amet, consectetur adipisicing elit, sed diam nonummy nibh euismod sorem ipsum  dolor dit amet, consequatur doloremque.</p>
         </aside>
     </div>
 

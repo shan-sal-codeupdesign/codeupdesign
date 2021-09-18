@@ -76,7 +76,6 @@ a {
 /* ----------------- main ----------------- */
 .title {
     margin: 5rem 0 2rem 0;
-    text-align: center;
     font-size: 1.1rem;
 }
 
@@ -103,11 +102,11 @@ a {
 
 .side {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .sideImage {
-    width: 4rem;
+    width: 3rem;
     height: 3rem;
     margin-right: 1rem;
     border: 3px solid #e6e6e6;
@@ -127,10 +126,26 @@ aside > p:nth-child(4) {
 }
 
 @media (min-width: 768px) {
-
+    .d-md-flex {
+        width: 720px;
+    }
 }
 
 @media (min-width: 992px) {
+    .container {
+        width: 800px;
+    }
+    .d-md-flex {
+        width: 800px;
+    }
+    h1 {
+        width: 690px;
+    }
+    .d-md-flex {
+        width: 80%;
+        max-width: 768px;
+    }
+
     .title {
         text-align: left;
     }
@@ -138,11 +153,18 @@ aside > p:nth-child(4) {
     aside .title {
         margin-bottom: 3.1rem;
     }
-}
 
-@media (min-width: 1200px) {
-    .container {
-        /*margin: ;*/
-        width: 998px;
+    .work {
+        margin: 0;
+    }
+
+    .blog {
+        margin: 0;
     }
 }
+
+/*@media (min-width: 1200px) {*/
+/*    .container {*/
+/*        width: 992px;*/
+/*    }*/
+/*}*/
